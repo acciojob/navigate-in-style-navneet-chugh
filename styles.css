@@ -10,6 +10,8 @@ body {
 }
 
 .container {
+	background-color:rgb(211,211,211);
+	padding:10px;
   max-width: 1200px;
   margin: 0 auto;
 }
