@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: #D3D3D3;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav-list li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
